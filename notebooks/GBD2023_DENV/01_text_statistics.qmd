@@ -1,0 +1,40 @@
+---
+title: "In-Text Statistics"
+author: "Your Name"
+date: today
+format:
+  html:
+    code-fold: false
+    toc: true
+---
+
+## Setup
+
+```{r setup}
+library(tidyverse)
+library(here)
+
+# Define paths
+PROJECT_ROOT <- here::here()
+MANUSCRIPT_DIR <- file.path(PROJECT_ROOT, "src/idd_manuscripts/GBD2023_DENV")
+DATA_DIR <- file.path(MANUSCRIPT_DIR, "data")
+```
+
+## Load Data
+
+```{r load-data}
+# Load processed data
+```
+
+## Key Statistics
+
+Calculate statistics referenced in manuscript text.
+
+```{r key-stats}
+# Example:
+# global_total <- sum(data$cases)
+# percent_change <- (final_year - baseline_year) / baseline_year * 100
+# 
+# cat("Global total cases:", scales::comma(global_total), "\n")
+# cat("Percent change:", round(percent_change, 1), "%\n")
+```

@@ -126,6 +126,10 @@ results/documents/*
 /.quarto/
 docs/quarto/_site/
 docs/quarto/.quarto/
+*.html
+*_files/
+*.docx
+manuscript-meca.zip
 
 # Sphinx
 docs/sphinx/_build/

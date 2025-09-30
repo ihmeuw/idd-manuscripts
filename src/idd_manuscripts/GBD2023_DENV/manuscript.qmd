@@ -1,0 +1,45 @@
+---
+title: "GBD 2023 Dengue Analysis"
+author:
+  - name: Your Name
+    affiliations:
+      - name: Institute for Health Metrics and Evaluation
+        department: Department Name
+        city: Seattle
+        state: WA
+        country: USA
+abstract: |
+  Your abstract goes here. This should be a brief summary of your manuscript.
+keywords:
+  - dengue
+  - GBD 2023
+  - global health
+date: today
+---
+
+## Introduction
+
+Dengue is a major public health concern [@MKL9QLBZ]. 
+Recent studies have shown increasing incidence [@8CXTAA9L; @75F5LQTI].
+As Smith et al. demonstrated [@MKL9QLBZ], transmission patterns vary by region.
+
+## Methods
+
+### Data Sources
+
+### Statistical Analysis
+
+## Results
+
+### Main Findings
+
+![Figure 1: Caption here](figures/figure1.png)
+
+## Discussion
+
+## Conclusions
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
